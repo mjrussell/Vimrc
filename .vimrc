@@ -10,36 +10,6 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
-"
-" original repos on github
-Bundle 'ervandew/supertab'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
-Bundle 'wincent/Command-T'
-Bundle 'vim-scripts/right_align'
-
-" Snipmate and dependencies
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "honza/snipmate-snippets"
-Bundle 'garbas/vim-snipmate'
-
-Bundle 'scrooloose/nerdtree'
-Bundle 'rson/vim-conque'
-Bundle 'vim-scripts/Align'
-Bundle 'mileszs/ack.vim'
-Bundle 'vim-scripts/nerdtree-ack'
-
-
 "{{{Auto Commands
 
 " Automatically cd into the directory that the file is in
