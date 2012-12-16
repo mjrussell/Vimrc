@@ -155,21 +155,6 @@ endtry
 
 set ffs=unix,dos,mac "Default file types
 
-"Status line gnarliness
-set laststatus=2
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
-function! CurDir()
-  let curdir = substitute(getcwd(), '/Users/amir/', "~/", "g")
-  return curdir
-endfunction
-function! HasPaste()
-  if &paste
-    return 'PASTE MODE  '
-  else
-    return ''
-  endif
-endfunction
-
 " No sound on errors
 set noerrorbells
 set novisualbell
@@ -205,16 +190,6 @@ function! TodoListMode()
   "or 'norm! zMzr'
 endfunction
 
-"}}}
-
-"{{{ Persistant Undo
-"if windows
-"set undodir=C:\Windows\Temp
-"otherwise
-set undodir=~/.tmp/undodir
-set undofile                " Save undo's after file closes
-set undolevels=1000         " How many undos
-set undoreload=10000        " number of lines to save for undo
 "}}}
 
 "}}}
