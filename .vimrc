@@ -192,9 +192,12 @@ imap ;; <Esc>
 map <Leader><space> :noh<cr>
 
 " GIT Commands
-noremap <Leader>gac :Gcommit -m -a ""<LEFT>
-noremap <Leader>gc :Gcommit -m ""<LEFT>
-noremap <Leader>gs :Gstatus<CR>
+noremap <Leader>gac :!git commit -a -m ""<LEFT>
+noremap <Leader>gc :!git commit -m ""<LEFT>
+noremap <Leader>ga :!git add %<CR>
+noremap <Leader>gs :!git status<CR>
+noremap <Leader>gd :!git diff<CR>
+noremap <Leader>gap :!git add -p %<CR>
 
 " Other remaps
 noremap <Leader>n :set nopaste<cr>
