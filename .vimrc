@@ -142,11 +142,12 @@ set shell=/bin/bash
 "  set gfn=Monospace\ 10
 "  set shell=/bin/bash
 
-set guioptions-=T
-set t_Co=256
-set background=dark
-colorscheme ir_black
-set encoding=utf8
+"set guioptions-=T
+"set t_Co=256
+"set background=dark
+"colorscheme 256-jungle
+"set encoding=utf8
+colorscheme default
 
 try
   lang en_US
