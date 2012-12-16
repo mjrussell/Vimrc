@@ -179,20 +179,6 @@ endfunction
 
 "}}}
 
-"{{{ Todo List Mode
-
-function! TodoListMode()
-  e ~/.todo.otl
-  Calendar
-  wincmd l
-  set foldlevel=1
-  tabnew ~/.notes.txt
-  tabfirst
-  "or 'norm! zMzr'
-endfunction
-
-"}}}
-
 "}}}
 
 "{{{ Mappings
