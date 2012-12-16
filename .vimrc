@@ -185,7 +185,7 @@ endfunction
 
 let mapleader = ","
 
-" map escape to something easier"
+" map escape to something easier
 imap ;; <Esc>
 
 " GIT Commands
