@@ -244,10 +244,6 @@ let g:C_Ctrl_j = 'off'
 nmap <C-j> <C-d>
 nmap <C-k> <C-u>
 
-" Swap ; and : (one less keypress)
-nnoremap ; :
-nnoremap : ;
-
 function! DelEmptyLineAbove()
   if line(".") == 1
     return
