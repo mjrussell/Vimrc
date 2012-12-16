@@ -185,6 +185,9 @@ endfunction
 
 let mapleader = ","
 
+" map escape to something easier"
+imap ;; <Esc>
+
 " GIT Commands
 noremap <Leader>gac :Gcommit -m -a ""<LEFT>
 noremap <Leader>gc :Gcommit -m ""<LEFT>
