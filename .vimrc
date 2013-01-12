@@ -197,6 +197,7 @@ noremap <Leader>gc :!git commit -m ""<LEFT>
 noremap <Leader>ga :!git add %<CR>
 noremap <Leader>gs :!git status<CR>
 noremap <Leader>gd :!git diff<CR>
+noremap <Leader>gdh :!git diff HEAD<CR>
 noremap <Leader>gap :!git add -p %<CR>
 
 " Other remaps
