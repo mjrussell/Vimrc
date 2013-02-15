@@ -192,8 +192,10 @@ imap ;; <Esc>
 map <Leader><space> :noh<cr>
 
 " GIT Commands
-noremap <Leader>gac :!git commit -a -m ""<LEFT>
-noremap <Leader>gc :!git commit -m ""<LEFT>
+noremap <Leader>gacm :!git commit -a -m ""<LEFT>
+noremap <Leader>gcm :!git commit -m ""<LEFT>
+noremap <Leader>gac :!git commit -a<CR>
+noremap <Leader>gc :!git commit<CR>
 noremap <Leader>ga :!git add %<CR>
 noremap <Leader>gs :!git status<CR>
 noremap <Leader>gd :!git diff<CR>
