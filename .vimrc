@@ -49,7 +49,7 @@ augroup END
 "{{{Misc Settings
 
 ":make runs this script!
-set makeprg=./compile
+set makeprg=cabal\ build
 
 " This shows what you are typing as a command at the bottom of the page
 set showcmd
